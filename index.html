@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final task 1</title>
+    <script type="text/javascript" src="myscript1.js"></script>
+    <style>
+        #container
+        {
+            background-color: lightblue;
+            padding: 10px;
+            display: inline-block;
+            border-radius: 5px;
+            border: 5px solid black;
+            background-image: url(logo.jpg);
+            background-repeat: no-repeat;
+            background-size: 70px;
+            background-blend-mode:overlay;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="container">
+    First Number: <input type="text" size="10" id="number1">
+    <br>
+    <br>
+    Second Number: <input type="text" size="10" id="number2">
+    <br>
+    <br>
+    RESULT:
+    <input type="text" size="20" id="result" readonly>
+    <br>
+    <br>
+    <button onclick="addNumbers()">Addition</button>
+    <button onclick="subtractNumbers()">Subtraction</button>
+    <button onclick="multiNumbers()">Multiply</button>
+    <button onclick="divideNumbers()">Divide</button>
+    <button onclick="clearNumbers()">Clear</button>
+    <button onclick="about()">About</button>
+    </div>
+</body>
+</html>
